@@ -20,7 +20,8 @@ requirements:
    - eigen 3.2.7
    - tbb 4.3_20141023  # [osx]
    - msinttypes r26  # [win and py<35]
-
+   - ffmpeg
+   
   run:
    - python
    - numpy
