@@ -59,7 +59,7 @@ cmake .. -G"$CMAKE_GENERATOR"                                            \
     -DWITH_CUDA=0                                                        \
     -DWITH_OPENCL=0                                                      \
     -DWITH_OPENNI=0                                                      \
-    -DWITH_FFMPEG=0                                                      \
+    -DWITH_FFMPEG=1                                                      \
     -DOPENCV_EXTRA_MODULES_PATH="opencv_contrib/modules"                 \
     -DCMAKE_SKIP_RPATH:bool=ON                                           \
     -DCMAKE_INSTALL_PREFIX=$PREFIX
