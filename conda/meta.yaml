@@ -21,9 +21,10 @@ requirements:
    - cmake
    - numpy
    - eigen 3.2.7
-   - tbb 4.3_20141023  # [osx]
+   - tbb #4.3_20141023  # [osx]
    - msinttypes r26  # [win and py<35]
-
+   - ffmpeg 2
+   
   run:
    - python
    - numpy
